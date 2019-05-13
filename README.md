@@ -1,0 +1,2 @@
+# embd-magnetic-sensor-calib
+Code package for for reproducing the results analyzed in "Numerical Error and Temporal Analysis of Embedded Magnetic Sensor Calibration using ARM Cortex-M4 Processor" by Victor Croisfelt Rodrigues, Guilherme Brandão da Silva, Daniel Santana Batista, Marcelo Carvalho Tosin, and Francisco Granziera Jr. 2018 13th IEEE International Conference on Industry Applications (INDUSCON), pp. 1387-1394, 2018.
