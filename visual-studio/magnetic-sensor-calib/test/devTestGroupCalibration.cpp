@@ -22,13 +22,13 @@
 #include <CppUTestExt/MockSupport.h>
 
 /* Test */
-#include <test.h>
+#include <hdr\test.h>
 
 /* User's */
-#include <matrix.h>
-#include <magdata.h>
-#include <twostep.h>
-#include <mve.h>
+#include <hdr\matrix.h>
+#include <hdr\magdata.h>
+#include <hdr\twostep.h>
+#include <hdr\mve.h>
 
 /* Private types -------------------------------------------------------------*/
 

@@ -1,6 +1,6 @@
 VisualGDB/Debug/matrix.o: src/matrix.cpp \
  C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerFreeRTOSHooks.h \
- C:/github/visual-studio/magnetic-sensor-calib/hdr\matrix.h \
+ C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/hdr\matrix.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
@@ -49,7 +49,7 @@ VisualGDB/Debug/matrix.o: src/matrix.cpp \
 
 C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerFreeRTOSHooks.h:
 
-C:/github/visual-studio/magnetic-sensor-calib/hdr\matrix.h:
+C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/hdr\matrix.h:
 
 c:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h:
 

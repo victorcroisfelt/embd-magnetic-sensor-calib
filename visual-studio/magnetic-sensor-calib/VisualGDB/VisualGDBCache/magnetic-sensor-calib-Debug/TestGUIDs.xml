@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfTestGUIDRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TestGUIDRecord>
+    <TestName>SelfCalibTests::MVE</TestName>
+    <GUID>07c9545a-642d-46e1-a547-eb61e61af477</GUID>
+  </TestGUIDRecord>
+  <TestGUIDRecord>
+    <TestName>SelfCalibTests::twoStep</TestName>
+    <GUID>fe8c4299-8723-4bee-834f-6b0da9317d95</GUID>
+  </TestGUIDRecord>
+</ArrayOfTestGUIDRecord>

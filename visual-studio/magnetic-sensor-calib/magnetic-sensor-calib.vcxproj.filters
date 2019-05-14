@@ -41,6 +41,9 @@
     <Filter Include="Header files\Device-specific files\Semihosting/Profiler">
       <UniqueIdentifier>{757a2538-fe03-477b-8a87-00c95dbfd86e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\Tests">
+      <UniqueIdentifier>{698e1d09-f772-4e90-a8fc-2d4ee3de9e2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="system_stm32f4xx.c">
@@ -396,6 +399,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\Users\victorcroisfelt\AppData\Local\VisualGDB\EmbeddedEFPs\Profiler\ProfilerRTOS_FreeRTOS.c">
       <Filter>Source files\Device-specific files\Semihosting/Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="test\devTestGroupCalibration.cpp">
+      <Filter>Source files\Tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

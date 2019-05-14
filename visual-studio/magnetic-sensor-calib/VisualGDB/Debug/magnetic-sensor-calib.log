@@ -1,5 +1,6 @@
-﻿  Linking ../VisualGDB/Debug/magnetic-sensor-calib...
+﻿  devTestGroupCalibration.cpp
+  Linking ../VisualGDB/Debug/magnetic-sensor-calib...
   ------------------- Memory utilization report -------------------
-  Used FLASH: 87KB out of 1024KB (8%)
-  Used SRAM: 7304 bytes out of 128KB (5%)
+  Used FLASH: 123KB out of 1024KB (12%) [+36K]
+  Used SRAM: 7380 bytes out of 128KB (5%) [+76]
   Used CCMRAM: 0 bytes out of 64KB (0%)

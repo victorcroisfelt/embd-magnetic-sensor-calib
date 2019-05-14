@@ -1,6 +1,6 @@
 VisualGDB/Debug/test.o: src/test.cpp \
  C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerFreeRTOSHooks.h \
- C:/github/visual-studio/magnetic-sensor-calib/hdr\test.h \
+ C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/hdr\test.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
@@ -46,9 +46,9 @@ VisualGDB/Debug/test.o: src/test.cpp \
  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cpp_type_traits.h \
  c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\ext\type_traits.h \
  c:\sysgcc\arm-eabi\arm-eabi\sys-include\math.h \
- C:/github/visual-studio/magnetic-sensor-calib/hdr\matrix.h \
+ C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/hdr\matrix.h \
  C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
- C:/github/visual-studio/magnetic-sensor-calib/stm32f4xx_hal_conf.h \
+ C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/stm32f4xx_hal_conf.h \
  C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
  C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/CMSIS_HAL/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -156,7 +156,7 @@ VisualGDB/Debug/test.o: src/test.cpp \
 
 C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerFreeRTOSHooks.h:
 
-C:/github/visual-studio/magnetic-sensor-calib/hdr\test.h:
+C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/hdr\test.h:
 
 c:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h:
 
@@ -248,11 +248,11 @@ c:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\ext\type_traits.h:
 
 c:\sysgcc\arm-eabi\arm-eabi\sys-include\math.h:
 
-C:/github/visual-studio/magnetic-sensor-calib/hdr\matrix.h:
+C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/hdr\matrix.h:
 
 C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
-C:/github/visual-studio/magnetic-sensor-calib/stm32f4xx_hal_conf.h:
+C:/embd-magnetic-sensor-calib/visual-studio/magnetic-sensor-calib/stm32f4xx_hal_conf.h:
 
 C:/Users/victorcroisfelt/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
 

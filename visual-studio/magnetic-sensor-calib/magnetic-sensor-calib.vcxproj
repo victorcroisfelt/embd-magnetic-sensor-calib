@@ -164,6 +164,7 @@
     <ClCompile Include="src\test.cpp" />
     <ClCompile Include="src\twostep.cpp" />
     <ClCompile Include="system_stm32f4xx.c" />
+    <ClCompile Include="test\devTestGroupCalibration.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Users\victorcroisfelt\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\CMSIS_HAL\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
