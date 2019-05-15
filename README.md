@@ -7,11 +7,12 @@ This work describes the implementation and results related to the numerical erro
 ## Prerequisites
 
 #### Software
+* [GNU Arm Embedded Toolchain Version 8-2018-q4-major](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 * [Microsoft Visual Studio Enterprise 2015 Version 14.0.25431.01 Update 3](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2015-version-history)
 * [Microsoft .NET Framework Version 4.7.03190](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2015-version-history)
 * [VisualGDB v5.2](https://visualgdb.com/history/)
 
-##### Visual GDB Packages
+##### Used Visual GDB Packages
 * STM32 Devices v2018.12R2
 * OpenOCD v20170609-0.10.0
 * Embedded Profiler and Fast Semihosting v3.1
