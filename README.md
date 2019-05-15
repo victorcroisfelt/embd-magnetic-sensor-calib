@@ -7,9 +7,9 @@ This work describes the implementation and results related to the numerical erro
 ## Prerequisites
 
 #### Software
-* "[Microsoft Visual Studio Enterprise 2015 Version 14.0.25431.01 Update 3](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2015-version-history)"
-* "[Microsoft .NET Framework Version 4.7.03190](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2015-version-history)"
-* "[VisualGDB v5.2](https://visualgdb.com/history/)"
+* [Microsoft Visual Studio Enterprise 2015 Version 14.0.25431.01 Update 3](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2015-version-history)
+* [Microsoft .NET Framework Version 4.7.03190](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2015-version-history)
+* [VisualGDB v5.2](https://visualgdb.com/history/)
 
 ##### Visual GDB Packages
 * STM32 Devices v2018.12R2
@@ -18,7 +18,7 @@ This work describes the implementation and results related to the numerical erro
 * CppUTest v3.8r1
 
 #### Hardware
-"[STM32F4DISCOVERY](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)"
+[STM32F4DISCOVERY](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
 
 ## Content
 
