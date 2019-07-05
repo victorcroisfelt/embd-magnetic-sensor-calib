@@ -45,13 +45,15 @@ Inside the "matlab" folder, you will find a script that simulates Figure 4 and t
 The most important constributions of this package are the libraries implemented in the header, labeled as "hdr", and source, "src", folders available inside "visual-studio/magnetic-sensor-calib/". Following the alphabetical order, we have:
 
 * magdata.h: the main purpouse behind this library is to load, to perform the tests made, a part of an extesive volume of raw magnetic data from a magnetometer that has gone through a long period inside a Helmholtz coil. For further information about the magnetometer and  Helmholtz coil, see: D. S. Batista, F. Granziera, M. C. Tosin and L. F. de Melo, “[Three-Axial Helmholtz Coil Design and Validation for Aerospace Applications](https://ieeexplore.ieee.org/document/8062793),” in IEEE Transactions on Aerospace and Electronic Systems, vol. 54, no. 1, pp. 392-403, Feb. 2018.
-* matrix.h: implements a bunch of linear algebra functions, e.g., matrix addition, matrix multiplication, and inverse (using the LU decomposition method) of a matrix. 
+* matrix.h: implements a bunch of linear algebra functions, e.g., matrix addition, matrix multiplication, and matrix inversion (using the LU decomposition method). 
 * mve.h: performs the auto-calibration routine based on the minimum variance estimator (MVE) approach.
 * test.h: functions used to run the tests that make use of the CppUTest package.
 * twostep.h: performs the auto-calibration routine based on the two-step process approach.
 
-
 ## Running the Tests
 
+To run temporal and numerical tests, which comprehend the data discussed in the article, you need to make use of the CppUTest package and run the code available on the "test" folder, also available on the path "visual-studio/magnetic-sensor-calib/". Of course, this will make use of all the libraries discussed above.
 
 ## Citing this Repository and License
+
+This code package is subject to the MIT license. If you use any part of this repository for research, please consider to cite our aforementioned work.
