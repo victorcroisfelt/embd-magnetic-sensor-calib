@@ -1,10 +1,21 @@
 # Numerical Error and Temporal Analysis of Embedded Magnetic Sensor Calibration using ARM Cortex-M4 Processor
 
+This is a research-oriented code package that is primarily intended to allow readers to replicate the results of the article mentioned below and also encourage and accelerate further research on this topic:
+
+Victor Croisfelt Rodrigues, Guilherme Brandão da Silva, Daniel Santana Batista, Marcelo Carvalho Tosin, and Francisco Granziera Jr, "[Numerical Error and Temporal Analysis of Embedded Magnetic Sensor Calibration using ARM Cortex-M4 Processor](https://doi.org/10.1109%2Finduscon.2018.8627205)," 13th IEEE INDUSCON, pp. 1387-1394, 2018.
+
+The package is comprised of two parts: (a) some code written in C++/C that implements auto-calibration routines for embedded magnetic sensor data, and (b) a Matlab code that plot figures and simulates some data described in the temporal/numerical analysis part of the manuscript. To contextualize, in the sequel, we present the abstract of the article and other important information. Observe that the C++/C codes are available in a Visual Studio project which makes use of the VisualDGB package. Moreover, we stress that the auto-calibration routines were embedded in an ARM Cortex-M4 microprocessor assembled in the STM32F4DISCOVERY developer kit. Plug-and-play support for other microprocessors is not provided here, but this is easy to get, since you only need to use the codes available in the header (hrd) and source (scr) folders (visualize them on visual-studio/magnetic-sensor-calib/).
+
+I hope this content helps in your reaseach and contributes to building the precepts behind open science. Remarkably, in order to boost the idea of open science and further drive the evolution of science, we also motivate you to share your published results to the public.
+
+If you have any questions and if you have encountered any inconsistency, please do not hesitate to contact me via victorcroisfelt@gmail.com.
 
 ## Abstract
 This work describes the implementation and results related to the numerical error and the temporal analysis of the calibration methodology of an embedded magnetometer. The system tested is part of an attitude determination system for aerospace applications, which uses low-cost tri-axial MEMS (micro electromechanical systems) magnetometer and an ARM Cortex-M4 as the processing unit. In order to validate and develop an efficient methodology for in run calibration, two different calibration algorithms were evaluated: a Two-Step process and a Minimum Variance Estimator (MVE), both described in the literature. The sensor's model consists of nine parameters to be estimated: bias, scale factor and misalignment angles between axes. A Test Unit was developed to evaluate both the numerical and temporal results of calibration. It uses IEEE 754 floating point standard variables with 32-bit and 64-bit wide in the ARM Cortex-M4. The former can be executed within the processor's Float Point Unit and the later cannot. The numerical data are compared to the one obtained using a Matlab code simulation. Result shows that the Two-Step present numerical instability for 32-bit wide variables, while the Minimum Variance Estimator has an inferior temporal execution but did not present such numerical issues.
 
 ## Getting Started: Prerequisites
+
+A list containing the softwares and hardware used in this project is available below.
 
 #### Software
 * [GNU Arm Embedded Toolchain Version 8-2018-q4-major](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
