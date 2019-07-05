@@ -4,7 +4,7 @@ This is a research-oriented code package that is primarily intended to allow rea
 
 Victor Croisfelt Rodrigues, Guilherme Brandão da Silva, Daniel Santana Batista, Marcelo Carvalho Tosin, and Francisco Granziera Jr, "[Numerical Error and Temporal Analysis of Embedded Magnetic Sensor Calibration using ARM Cortex-M4 Processor](https://doi.org/10.1109%2Finduscon.2018.8627205)," 13th IEEE INDUSCON, pp. 1387-1394, 2018.
 
-The package is comprised of two parts: (a) some code written in C++/C that implements auto-calibration routines for embedded magnetic sensor data, and (b) a Matlab code that plot figures and simulates some data described in the temporal/numerical analysis part of the manuscript. To contextualize, in the sequel, we present the abstract of the article and other important information. Observe that the C++/C codes are available in a Visual Studio project which makes use of the VisualDGB package. Moreover, we stress that the auto-calibration routines were embedded in an ARM Cortex-M4 microprocessor assembled in the STM32F4DISCOVERY developer kit. Plug-and-play support for other microprocessors is not provided here, but this is easy to get, since you only need to use the codes available in the header (hrd) and source (scr) folders (visualize them on visual-studio/magnetic-sensor-calib/).
+The package is comprised of two parts: (a) some code written in C++/C that implements auto-calibration routines for embedded magnetic sensor data, and (b) a Matlab code that plot figures and simulates some data described in the temporal/numerical analysis part of the manuscript. To contextualize, in the sequel, we present the abstract of the article and other important information. Observe that the C++/C codes are available in a Visual Studio project which makes use of the VisualDGB package, allowing us to load the code via JTAG to a ARM Cortex-M4 microprocessor assembled in the STM32F4DISCOVERY developer kit. Plug-and-play support for other microprocessors is not provided here, but this is easy to get, since you only need to use the codes available in the header ("hrd") and source ("scr") folders (visualize them on "visual-studio/magnetic-sensor-calib/").
 
 I hope this content helps in your reaseach and contributes to building the precepts behind open science. Remarkably, in order to boost the idea of open science and further drive the evolution of science, we also motivate you to share your published results to the public.
 
@@ -34,9 +34,15 @@ A list containing the softwares and hardware used in this project is available b
 
 ## Content
 
+This section describes the files shared here.
+
 ### Matlab
 
+Inside the "matlab" folder, you will find a script that simulates Figure 4 and the data displayed in Table 5 of the article. To construct the figure, a function that performs a polynomial fit of order is also available.
+
 ### Visual Studio
+
+The most important constributions of this package are the libraries implemented in the header, labeled as "hdr", and source, "src", folder available inside "visual-studio/magnetic-sensor-calib/".
 
 ## Running the Tests
 
