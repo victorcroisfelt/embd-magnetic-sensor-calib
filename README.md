@@ -38,11 +38,18 @@ This section describes the files shared here.
 
 ### Matlab
 
-Inside the "matlab" folder, you will find a script that simulates Figure 4 and the data displayed in Table 5 of the article. To construct the figure, a function that performs a polynomial fit of order is also available.
+Inside the "matlab" folder, you will find a script that simulates Figure 4 and the data displayed in Table 5 of the article. To construct the figure, a function that performs a polynomial fit of order n is also available.
 
 ### Visual Studio
 
-The most important constributions of this package are the libraries implemented in the header, labeled as "hdr", and source, "src", folder available inside "visual-studio/magnetic-sensor-calib/".
+The most important constributions of this package are the libraries implemented in the header, labeled as "hdr", and source, "src", folders available inside "visual-studio/magnetic-sensor-calib/". Following the alphabetical order, we have:
+
+* magdata.h: the main goal behind this library is to load a part of a extesive raw magnometer data from a magnetomer that ran through a long period of time inside a Helmholtz Coil. For further information, see: D. S. Batista, F. Granziera, M. C. Tosin and L. F. de Melo, “Three-Axial Helmholtz Coil Design and Validation for Aerospace Applications,” in IEEE Transactions on Aerospace and Electronic Systems, vol. 54, no. 1, pp. 392-403, Feb. 2018.
+* matrix.h:
+* mve.h:
+* test.h:
+* twostep.h:
+
 
 ## Running the Tests
 
