@@ -38,13 +38,13 @@ This section describes the files shared here.
 
 ### Matlab
 
-Inside the "matlab" folder, you will find a script that simulates Figure 4 and the data displayed in Table 5 of the article. To construct the figure, a function that performs a polynomial fit of order n is also available.
+Inside the "matlab" folder, you will find a script that simulates Figure 4 and the data in Table 5 of the article. A function that performs a polynomial fit of order n is also available to construct the figure.
 
 ### Visual Studio
 
-The most important constributions of this package are the libraries implemented in the header, labeled as "hdr", and source, "src", folders available inside "visual-studio/magnetic-sensor-calib/". Following the alphabetical order, we have:
+The most important contributions of this package are the libraries implemented in the header, labeled as "hdr", and source, "src", folders available inside "visual-studio/magnetic-sensor-calib/". Following the alphabetical order, we have:
 
-* magdata.h: the main purpouse behind this library is to load, to perform the tests made, a part of an extesive volume of raw magnetic data from a magnetometer that has gone through a long period inside a Helmholtz coil. For further information about the magnetometer and  Helmholtz coil, see: D. S. Batista, F. Granziera, M. C. Tosin and L. F. de Melo, “[Three-Axial Helmholtz Coil Design and Validation for Aerospace Applications](https://ieeexplore.ieee.org/document/8062793),” in IEEE Transactions on Aerospace and Electronic Systems, vol. 54, no. 1, pp. 392-403, Feb. 2018.
+* magdata.h: the main purpose behind this library is to load, to perform the tests made, a part of an extesive volume of raw magnetic data from a magnetometer that has gone through a long period inside a Helmholtz coil. For further information about the magnetometer and  Helmholtz coil, see: D. S. Batista, F. Granziera, M. C. Tosin and L. F. de Melo, “[Three-Axial Helmholtz Coil Design and Validation for Aerospace Applications](https://ieeexplore.ieee.org/document/8062793),” in IEEE Transactions on Aerospace and Electronic Systems, vol. 54, no. 1, pp. 392-403, Feb. 2018.
 * matrix.h: implements a bunch of linear algebra functions, e.g., matrix addition, matrix multiplication, and matrix inversion (using the LU decomposition method). 
 * mve.h: performs the auto-calibration routine based on the minimum variance estimator (MVE) approach.
 * test.h: functions used to run the tests that make use of the CppUTest package.
@@ -57,3 +57,16 @@ To run temporal and numerical tests, which comprehend the data discussed in the 
 ## Citing this Repository and License
 
 This code package is subject to the MIT license. If you use any part of this repository for research, please consider to cite our aforementioned work.
+
+```bibtex
+@INPROCEEDINGS{8627205,
+  author={R., Victor Croisfelt and Silva, Guilherme B. da and Batista, Daniel S. and Tosin, Marcelo C. and Granziera, Francisco},
+  booktitle={2018 13th IEEE International Conference on Industry Applications (INDUSCON)}, 
+  title={Numerical Error and Temporal Analysis of Embedded Magnetic Sensor Calibration using ARM Cortex-M4 Processor}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1387-1394},
+  keywords={Magnetometers;Calibration;Magnetic separation;Micromechanical devices;Mathematical model;Magnetic resonance imaging;Numerical models;ARM Cortex-M4;magnetic Sensor;parameter Estimation;sensor Calibration;unit Test},
+  doi={10.1109/INDUSCON.2018.8627205}
+}
